@@ -63,6 +63,11 @@ html, body {
 
 .logo {
     float: left;
+    padding: 1rem 0;
+}
+
+nav {
+    float: inline-start;
 }
 
 nav ul {
@@ -72,8 +77,14 @@ nav ul {
 }
 
 nav li {
-    display: inline-flex;
-    
+    display: inline-block;
+    margin-left: 4.4rem;
+    padding-top: 2.3rem;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5 {
@@ -89,6 +100,10 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+#jumbo {
+    padding: 1.8rem 0;
 }
 
 .top-content {
